@@ -8,7 +8,7 @@ yesBtn.addEventListener("click", () => {
     question.innerHTML = "aaaa, I like you too";
     gif.src =
     "https://media.giphy.com/media/CaUKBleO61fbVaJVtu/giphy.gif";
-} );
+});
 
 noBtn.addEventListener("mouseover", () => {
     const noBtnRect = noBtn.getBoundingClientRect();
